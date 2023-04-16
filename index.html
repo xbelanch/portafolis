@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>reveal.js</title>
+
+	<link rel="stylesheet" href="dist/reset.css">
+	<link rel="stylesheet" href="dist/reveal.css">
+	<link rel="stylesheet" href="dist/theme/brutalist.css">
+
+	<!-- Theme used for syntax highlighted code -->
+	<link rel="stylesheet" href="plugin/highlight/monokai.css">
+  </head>
+  <body>
+	<div class="reveal">
+	  <div class="slides">
+        <section data-background-color="#FFFF00">
+          <img style="position: absolute; left: 90%; top: -25%;" src="assets/any.png" width="200">
+          <div style="background-color: #FFFF; 
+                      padding: 32px;
+                      border: 2px solid; 
+                      border-color: #000;
+                      border-radius: 10px;
+                      box-shadow: 10px 10px;">
+            <h1>Portafoli</h1>
+            <h2>Xavier Belanche</h2>
+          </div>
+          <p><small>Presentació creada amb la fantàstica eina <a href="https://revealjs.com/">Reveal JS</a>, Abril de 2023</small></p>
+        </section>
+        <section data-background-image="https://picsum.photos/id/10/1280/1024?blur=2">
+          <h1>Go, Xavier</h1>
+        </section>
+		<section data-background-image="https://picsum.photos/id/10/1280/1024?blur=2">
+          <h1>Go, Xavier</h1>
+        </section>
+        <section data-transition="zoom" data-background-gradient="linear-gradient(to bottom, #283b95, #17b2c3)"> 
+          <h2>This slide will override the presentation transition and zoom!</h2>
+        </section>
+        <section data-background-image="https://picsum.photos/id/9/1280/1024?grayscale&blur=2">
+          <h3>This is a video</h3>
+          <video data-autoplay src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4"></video>
+        </section>
+	  </div>
+	</div>
+
+	<script src="dist/reveal.js"></script>
+	<script src="plugin/notes/notes.js"></script>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script src="plugin/highlight/highlight.js"></script>
+	<script>
+	  // More info about initialization & config:
+	  // - https://revealjs.com/initialization/
+	  // - https://revealjs.com/config/
+	  Reveal.initialize({
+          loop: true,
+          progress: true,
+		  hash: true,
+		  // Learn about plugins: https://revealjs.com/plugins/
+		  plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+	  });
+	</script>
+  </body>
+</html>
