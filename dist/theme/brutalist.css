@@ -5,8 +5,9 @@
  */
 
 
- @import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200;400;500;700&display=swap');
 @import url(./fonts/mabry-pro/stylesheet.css);
+@import url(./fonts/fontawesome/css/all.css);
 
 html * {
   color-profile: sRGB;
@@ -410,24 +411,94 @@ section.has-light-background, section.has-light-background h1, section.has-light
     font-family: Unbounded;
 }
 
-p.button {
+
+/* Robbed from https://stackoverflow.com/a/56110689 */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+
+.grid-container-2 {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 16px;
+  font-size: 30px;
+  text-align: center;
+  margin: 16px;
+  border: 2px solid;
+  color: #000;
+  cursor: pointer;
+  box-shadow: 6px 6px;
+}
+.grid-item h3 {
+    font-weight: 400;
+    font-size: 20px;
+    color: #000;
+}
+
+.grid-item p {
+    font-size: 16px;
+    text-align: left;
+}
+
+.slides .box {
     border: 2px solid;
     color: #000;
-    padding: 15px 32px;
+    cursor: pointer;
+    box-shadow: 6px 6px;
+    text-align: right;
+    padding: 16px;
+}
+
+.slides .box h2 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #9723c9
+}
+
+.slides .box p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #5c6572;
+}
+
+.slides .button {
+    display: block;
+    border: 2px solid;
+    color: #000;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    font-weight: 700;
-    margin: 4px 2px;
+    font-weight: 600;
     cursor: pointer;
     box-shadow: 6px 6px;
+    padding: 8px;
 }
 
-.button-pink {
+.slides .button-pink {
     background-color: #FFB2EF;
 }
 
-.button-yellow {
+.slides .button-yellow {
+    background-color: #FDFD96;
+}
+
+.slides .link {
+    width: auto;
+    display: table;
+    text-align: left;
+    box-shadow: none;
+}
+
+.slides .link:hover {
+    border: 2px solid;
     background-color: #FDFD96;
 }

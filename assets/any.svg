@@ -7,8 +7,32 @@
    viewBox="0 0 142.52562 142.52559"
    version="1.1"
    id="svg3190"
+   sodipodi:docname="any.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview20"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.54935123"
+     inkscape:cx="-239.37327"
+     inkscape:cy="183.85323"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg3190" />
   <defs
      id="defs3187">
     <rect
@@ -18,24 +42,23 @@
        height="187.5463"
        id="rect3613" />
   </defs>
-  <g
-     id="layer1"
-     transform="translate(-31.44665,-51.149355)">
-    <circle
-       style="opacity:1;fill:#ff00ff;fill-opacity:1;stroke:#000000;stroke-width:1.32292;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1"
-       id="path3557"
-       cx="102.70946"
-       cy="122.41216"
-       r="70.601349" />
-    <text
-       xml:space="preserve"
-       transform="matrix(0.46635702,-0.11677432,0.11677432,0.46635702,-150.7745,-49.535453)"
-       id="text3611"
-       style="font-weight:bold;font-size:96px;font-family:'Mabry Pro';-inkscape-font-specification:'Mabry Pro Bold';text-align:center;white-space:pre;shape-inside:url(#rect3613);opacity:1;fill:#ff00ff;fill-opacity:1;stroke-width:2;stroke-linecap:square"><tspan
-         x="308.04199"
-         y="508.63086"
-         id="tspan3853"><tspan
-           style="fill:#000000"
-           id="tspan3851">2023</tspan></tspan></text>
-  </g>
+  <circle
+     style="fill:#c4a1ff;fill-opacity:1;stroke:#000000;stroke-width:3.96875;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1"
+     id="path3557"
+     cx="71.26281"
+     cy="71.26281"
+     r="70.601349"
+     inkscape:export-filename="any.png"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96" />
+  <text
+     xml:space="preserve"
+     transform="matrix(0.46635702,-0.11677432,0.11677432,0.46635702,-180.49417,-93.961931)"
+     id="text3611"
+     style="font-weight:bold;font-size:73.38px;font-family:'Mabry Pro';-inkscape-font-specification:'Mabry Pro Bold';text-align:center;white-space:pre;shape-inside:url(#rect3613);fill:#000000;fill-opacity:1;stroke-width:2;stroke-linecap:square"><tspan
+       x="300.24815"
+       y="488.65364"
+       id="tspan1438"><tspan
+         style="font-weight:600;font-family:Unbounded;-inkscape-font-specification:'Unbounded Semi-Bold'"
+         id="tspan1436">2023</tspan></tspan></text>
 </svg>
