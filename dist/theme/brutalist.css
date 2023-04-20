@@ -371,61 +371,65 @@ section.has-light-background, section.has-light-background h1, section.has-light
 /*********************************************
  * CUSTOM STYLES by CHAT CPP
  *********************************************/
-
-.flex-container {
+.slides .flex-container-first-slide {
     display: flex;
     flex-direction: row;
     gap: 10px;
+}
+
+.slides div.col.left {
+    margin-left: 34%;
+}
+
+.slides div.col.right {
+    margin-left: 1%;
+}
+
+.slides .flex-container {
     color: #000;
+    display: grid;
+    grid-template-columns: 43% 57%;    
 }
 
-.col.left {
-    width: 20%;
-    margin-left: 30%;
-
-}
-.col.right {
-    width: 20%;
-    margin-right: 30%;
-}
-
-.col-left {
-    width: 120%;
+.slides .col-left {
     text-align: left;
+    margin-right: 2em;
 }
 
-.col-left p {
+.slides .col-left h1 {
+    font-weight: 400;
+}
+
+.slides .col-left p {
     font-size: 0.75em;
     font-weight: 400;
 }
 
-.col-right img {
+.slides .col-right img {
     width: 95%;
     border: 2px solid;
     box-shadow: 6px 6px;
 }
 
-.col.right p, .col.left p {
+.slides .col.right p, .col.left p {
     font-size: 0.6em;
     font-weight: 700;
     font-family: Unbounded;
 }
 
-
 /* Robbed from https://stackoverflow.com/a/56110689 */
-
-.grid-container {
+.slides .grid-container {
   display: grid;
   grid-template-columns: 33% 33% 33%;
 }
 
-.grid-container-2 {
+.slides .grid-container-2 {
   display: grid;
   grid-template-columns: auto auto;
   padding: 10px;
 }
 
-.grid-item {
+.slides .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 16px;
@@ -437,13 +441,13 @@ section.has-light-background, section.has-light-background h1, section.has-light
   cursor: pointer;
   box-shadow: 6px 6px;
 }
-.grid-item h3 {
+.slides .grid-item h3 {
     font-weight: 400;
     font-size: 20px;
     color: #000;
 }
 
-.grid-item p {
+.slides .grid-item p {
     font-size: 16px;
     text-align: left;
 }
@@ -457,16 +461,45 @@ section.has-light-background, section.has-light-background h1, section.has-light
     padding: 16px;
 }
 
-.slides .box h2 {
-    font-size: 24px;
-    font-weight: 500;
-    color: #9723c9
-}
-
 .slides .box p {
     font-size: 14px;
     font-weight: 400;
     color: #5c6572;
+}
+
+.slides .box p.date {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 0 5px 0;
+}
+
+.slides .box p.date.blue {
+     color: #1e3a8a;
+}
+
+.slides .box p.date.blood {
+     color: #7f1d1d;
+}
+
+.slides .box h2 {
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+
+.slides .box h2.blue {
+     color: #1e3a8a;
+}
+
+.slides .box h2.blood {
+     color: #7f1d1d;
+}
+
+.slides .box p.location{
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+    margin: 0 5px 0 0;
 }
 
 .slides .button {
@@ -502,3 +535,4 @@ section.has-light-background, section.has-light-background h1, section.has-light
     border: 2px solid;
     background-color: #FDFD96;
 }
+
