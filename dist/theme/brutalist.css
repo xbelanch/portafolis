@@ -388,7 +388,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
 .slides .flex-container {
     color: #000;
     display: grid;
-    grid-template-columns: 43% 57%;    
+    grid-template-columns: 48% 57%;
 }
 
 .slides .col-left {
@@ -406,7 +406,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
 }
 
 .slides .col-right img {
-    width: 95%;
+    width: 65%;
     border: 2px solid;
     box-shadow: 6px 6px;
 }
@@ -543,4 +543,3 @@ section.has-light-background, section.has-light-background h1, section.has-light
     border: 2px solid;
     background-color: #FDFD96;
 }
-
