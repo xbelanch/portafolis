@@ -371,65 +371,65 @@ section.has-light-background, section.has-light-background h1, section.has-light
 /*********************************************
  * CUSTOM STYLES by CHAT CPP
  *********************************************/
-.slides .flex-container-first-slide {
+.reveal .flex-container-first-slide {
     display: flex;
     flex-direction: row;
     gap: 10px;
 }
 
-.slides div.col.left {
+.reveal div.col.left {
     margin-left: 34%;
 }
 
-.slides div.col.right {
+.reveal div.col.right {
     margin-left: 1%;
 }
 
-.slides .flex-container {
+.reveal .flex-container {
     color: #000;
     display: grid;
     grid-template-columns: 48% 57%;
 }
 
-.slides .col-left {
+.reveal .col-left {
     text-align: left;
     margin-right: 2em;
 }
 
-.slides .col-left h1 {
+.reveal .col-left h1 {
     font-weight: 400;
 }
 
-.slides .col-left p {
+.reveal .col-left p {
     font-size: 0.75em;
     font-weight: 400;
 }
 
-.slides .col-right img {
+.reveal .col-right img {
     width: 65%;
     border: 2px solid;
     box-shadow: 6px 6px;
 }
 
-.slides .col.right p, .col.left p {
+.reveal .col.right p, .col.left p {
     font-size: 0.6em;
     font-weight: 700;
     font-family: Unbounded;
 }
 
 /* Robbed from https://stackoverflow.com/a/56110689 */
-.slides .grid-container {
+.reveal .grid-container {
     display: grid;
     grid-template-columns: 33% 33% 33%;
 }
 
-.slides .grid-container-2 {
+.reveal .grid-container-2 {
     display: grid;
     grid-template-columns: auto auto;
     padding: 10px;
 }
 
-.slides .grid-item {
+.reveal .grid-item {
     background-color: rgba(255, 255, 255, 0.8);
     border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 16px;
@@ -441,18 +441,18 @@ section.has-light-background, section.has-light-background h1, section.has-light
     cursor: pointer;
     box-shadow: 6px 6px;
 }
-.slides .grid-item h3 {
+.reveal .grid-item h3 {
     font-weight: 400;
     font-size: 20px;
     color: #000;
 }
 
-.slides .grid-item p {
+.reveal .grid-item p {
     font-size: 16px;
     text-align: left;
 }
 
-.slides .box {
+.reveal .box {
     border: 2px solid;
     color: #000;
     cursor: pointer;
@@ -461,56 +461,56 @@ section.has-light-background, section.has-light-background h1, section.has-light
     padding: 16px;
 }
 
-.slides .box p {
+.reveal .box p {
     font-size: 14px;
     font-weight: 400;
     color: #5c6572;
 }
 
-.slides .box p.date {
+.reveal .box p.date {
     font-size: 16px;
     font-weight: 500;
     margin: 0 0 5px 0;
 }
 
-.slides .box p.date.blue {
+.reveal .box p.date.blue {
     color: #1e3a8a;
 }
 
-.slides .box p.date.blood {
+.reveal .box p.date.blood {
     color: #7f1d1d;
 }
 
-.slides .box p.date.green {
+.reveal .box p.date.green {
     color: #14532d;
 }
 
-.slides .box h2 {
+.reveal .box h2 {
     font-size: 32px;
     font-weight: 500;
     margin-bottom: 6px;
 }
 
-.slides .box h2.blue {
+.reveal .box h2.blue {
     color: #1e3a8a;
 }
 
-.slides .box h2.blood {
+.reveal .box h2.blood {
     color: #7f1d1d;
 }
 
-.slides .box h2.green {
+.reveal .box h2.green {
     color: #14532d;
 }
 
-.slides .box p.location{
+.reveal .box p.location{
     font-size: 16px;
     font-weight: 500;
     color: #000;
     margin: 0 5px 0 0;
 }
 
-.slides .button {
+.reveal .button {
     display: block;
     border: 2px solid;
     color: #000;
@@ -524,22 +524,30 @@ section.has-light-background, section.has-light-background h1, section.has-light
     padding: 8px;
 }
 
-.slides .button-pink {
+.reveal .button-pink {
     background-color: #FFB2EF;
 }
 
-.slides .button-yellow {
+.reveal .button-yellow {
     background-color: #FDFD96;
 }
 
-.slides .link {
+.reveal .link {
     width: auto;
     display: table;
     text-align: left;
     box-shadow: none;
 }
 
-.slides .link:hover {
+.reveal .link:hover {
     border: 2px solid;
     background-color: #FDFD96;
+}
+
+.reveal h1.last {
+    color: #FDFD96;
+}
+
+.reveal p.last {
+    color: #FFF;
 }
