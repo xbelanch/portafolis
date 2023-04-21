@@ -1,0 +1,267 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Developer CV
+% LaTeX Template
+% Version 1.0 (28/1/19)
+%
+% This template originates from:
+% http://www.LaTeXTemplates.com
+%
+% Authors:
+% Jan Vorisek (jan@vorisek.me)
+% Based on a template by Jan Küster (info@jankuester.com)
+% Modified for LaTeX Templates by Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[9pt]{developercv} % Default font size, values from 8-12pt are recommended
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.45\textwidth} % 45% of the page width for name
+  \vspace{-\baselineskip} % Required for vertically aligning minipages
+  
+  % If your name is very short, use just one of the lines below
+  % If your name is very long, reduce the font size or make the minipage wider and reduce the others proportionately
+  \colorbox{purple}{{\HUGE\textcolor{white}{\textbf{Xavier}}}} % First name
+  
+  \colorbox{purple}{{\HUGE\textcolor{white}{\textbf{Belanche}}}} % Last name
+  
+  \vspace{6pt}
+  
+  {\huge Docent Secundària} % Career or current job title
+\end{minipage}
+\begin{minipage}[t]{0.275\textwidth} % 27.5% of the page width for the first row of icons
+  \vspace{-\baselineskip} % Required for vertically aligning minipages
+  
+  % The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+  % Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
+  \icon{MapMarker}{12}{Barcelona}\\
+  \icon{Phone}{12}{628 862 403}\\
+  \icon{At}{12}{\href{mailto:xbelanch@xtec.cat}{xbelanch@xtec.cat}}\\	
+  \icon{Twitter}{12}{\href{https://twitter.com/@xbelanch}{@xbelanch}}\\
+  \icon{Youtube}{12}{\href{https://youtube.com/@xbelanch}{xbelanch}}\\
+  \icon{Twitch}{12}{\href{https://twitch.com/lowdither}{lowdither}}\\
+  \icon{Github}{12}{\href{https://github.com/xbelanch}{xbelanch}}\\
+  \icon{FilePowerpointO}{12}{\href{https://slides.com/xavierbelanchealonso/portafoli/}{Portafoli}}\\
+  
+\end{minipage}
+\begin{minipage}[t]{0.275\textwidth} % 27.5% of the page width for the second row of icons
+  \vspace{-\baselineskip} % Required for vertically aligning minipages
+  % The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+  % Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
+  %% \icon{Globe}{12}{\href{https://alyx.vance.me}{alyx.vance.me}}\\
+  %% \icon{Github}{12}{\href{https://github.com/alyxvance}{github.com/alyxvance}}\\
+
+  % Put picture of myself
+  \profpic{0.225}{me-purple}
+\end{minipage}
+
+\vspace{0.5cm}
+
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION, SKILLS AND TECHNOLOGIES
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.45\textwidth}
+  \vspace{-\baselineskip} % Required for vertically aligning minipages
+
+  \cvsect{Perfil}
+
+  Professor amb 30 anys d'experiència a l'ensenyament públic impartint docència en la modalitat presencial com a distància. Especialitzat en l'ús, aplicació i difusió de les teconologies per l'aprenentatge en l'àmbit de la docència, la formació del professorat com la creació d'eines i el disseny de recursos d'aprenetatge. Capacitat d'innovació per a la millora de la qualitat edicactiva.\\
+
+  Actualment desenvolupo la meva tasca docent a l'Institut Obert de Catalunya (IOC).
+
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.45\textwidth}
+  \vspace{-\baselineskip} % Required for vertically aligning minipages
+  
+  \cvsect{Competències}
+  
+  Disseny, implementació i direcció de projectes educatius, especialment d’e-learning.\\
+  Disseny i gestió d’entorns virtuals d’ensenyament-aprenentatge (EVEA).\\
+  Ús crític de la tecnologia en l’ensenyament-aprenentatge.\\
+  Formació de formadors i transferència de coneixement.\\
+  Creació de recursos d’aprenentatge.\\
+  Disseny de propostes de personalització de l’aprenentatge.\\
+
+\end{minipage}
+
+\vspace{0.5cm}
+\begin{center}
+  \bubbles{4/exe, 4/Krita, 4/GIMP, 4/Inkscape, 5/Blender, 5/Linkat, 6/EVEAs, 6/Wikis, 5/HTML-CSS, 4/Scratch, 4/Arduino, 4/git}
+\end{center}
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\cvsect{Experiència}
+
+\begin{entrylist}
+  \entry
+	  {2022 -- 2023}
+	  {Coordinació disseny model d'aula - Batxillerat}
+	  {Institut Obert de Catalunya}
+	  {Responsable del disseny i organització de l'aula de Batxillerat en l'entorn del Campus de l'IOC (Moodle). La finalitat és l'aplicació i encaix de l'estructura proposada pel nou currículum competencial ---situacions d'aprenentatge--- en el context dels estudis de secundària a distància.}
+  \entry
+	  {2012 -- 2023}
+	  {Projecte Miniops}
+	  {Institut Obert de Catalunya}
+      {Responsable del disseny web del \href{https://miniops.ioc.cat/}{projecte Miniops}, cursos d'aprenentatge en obert de temàtiques transversals d'interès actual (\emph{seguretat a la xarxa}, \emph{ciència i pseudociència}, \emph{impressió 3D}, \emph{triar llibres per a infants i joves}, \emph{cercar a internet}...). El projecte miniops ha estat reconegut el 2021 com a \href{https://documents.espai.educacio.gencat.cat/IPCNormativa/DisposicionsInternes/20220302-llista-definitiva-practiques-referencia.pdf}{Pràctica Educativa de Referència} segons la resolució \emph{EDU/3415/2021}, de 12 de novembre.}
+  \entry
+      {2021}
+      {Mentoria digital}
+      {CRP, ELIC i EAP d'Esplugues i Sant Just Desvern}
+      {Assessoria mentoritzada de quatre escoles públiques (\href{https://slides.com/xavierbelanchealonso/joan-maragall/}{Joan Maragall}, \href{https://slides.com/xavierbelanchealonso/matilde-ordua/}{Matilde Orduña}, \href{https://slides.com/xavierbelanchealonso/can-vidalet/}{Can Vidalet} i \href{https://slides.com/xavierbelanchealonso/assessoria-mentoritzada-escola-prat-de-la-riba}{Prat de la Riba}) d'Esplugues de Llobregat. La mentoria va venir acompanyada de creació de recursos eductaius ajustats a la demanda particular de la direcció i claustre del centre (Moodle, Google Classroom, Google Workspace i pissarres digitals interactives (PDI). }
+  \entry
+      {2008 -- 2011}
+      {Eina de creació i publicació de materials d'estudi}
+	  {Institut Obert de Catalunya}
+      {Responsable del disseny, desenvolupament del servei (\href{https://www.dokuwiki.org/dokuwiki}{wiki}) que permet la producció i publicació dels \href{https://ioc.xtec.cat/educacio/recursos}{recursos d'estudi d'FP} disponibles en obert, sota llicència \emph{Creative Commons} de l'Institut Obert de Catalunya (IOC). Els recursos estan disponibles en format optimitzat per a la web (HTML) i per a la impressió en paper (PDF).}
+    \entry
+      {2005 -- 2008}
+      {Tècnic docent}
+	  {Departament d'Educació}
+      {Integrant de l'equip de formació de l'Àrea TIC del Departament d'Educació que coordina la creació i gestió dels recursos, aules, professorat formador, jornades, seminaris i un catàleg de cursos telemàtics orientats a l'assoliment d'una competència digital específica de la funció docent.}
+    \entry
+      {2005 -- 2008}
+      {Coordinador Seminaris Permanents Secundària}
+	  {Departament d'Educació}
+      {Coordinador del seminari permanent de secundària de l'àrea TIC del Departament d'Educació adreçada als coordinadors d'informàtica. Responsable de la redacció dels continguts i temàtiques de la \href{http://clic.xtec.cat/qv_web/docs/masterSPS03.pdf}{revista trimestral}.}
+   \entry
+      {2005 -- 2007}
+      {Projecte Linkat}
+	  {Departament d'Educació}
+      {Integrant de l'equip inicial del disseny i formació del projecte \href{http://linkat.xtec.cat/portal/index.php}{Linkat}, la distribució educativa GNU/Linux del Departament d'Educació a la comunitat educativa.}
+   \entry
+       {2001 -- 2022}
+       {Formador de professorat}
+	   {Departament d'Educació}
+       {Formador de diferents temàtiques relacionades amb la competència digital, modalitat presencial i telemàtica:\\
+         ---\emph{Disseny i creació de pàgines web}\\
+         ---\emph{Introducció a GNU/Linux i Linkat}\\
+         ---\emph{Jornades tècniques sobre Moodle i Intranets}\\
+         ---\emph{De les TIC a les TAC}\\
+         ---\emph{Didàctica de la informàtica a Llengües Estrangeres}\\
+         ---\emph{Renovació de la web de centre amb Wordpress}\\
+         ---\emph{Introducció als estàndards i accessibilitat web}\\
+         ---\emph{Eines d'autoria: eXeLearning}\\
+         ---\emph{Eines de treball per a la formació a distància}}
+   \entry
+      {2008 -- 2023}
+      {Tutoria GES i Batxillerat}
+	  {Institut Obert de Catalunya}
+      {}
+    \entry
+       {2002 -- 2005}
+       {Tutoria d'ESO}
+	   {Departament d'Educació -- INS Forat del Vent (Cerdanyola del Vallès)}
+       {}
+    \entry
+       {2002 -- 2003}
+       {Coordinació d'activitats i serveis}
+	   {Departament d'Educació -- INS Forat del Vent (Cerdanyola del Vallès)}
+       {}
+    \entry
+       {2000 -- 2001}
+       {Cap de seminari de Dibuix}
+	   {Departament d'Educació -- INS Ítaca (Sant Boi de Llobregat)}
+       {}
+    \entry
+       {1998 -- 2000}
+       {Tutoria d'ESO}
+	   {Departament d'Educació -- INS Marianao (Sant Boi de Llobregat)}
+       {}           
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\cvsect{Formació}
+
+\begin{entrylist}
+    \entry
+	  {2022}
+	  {L'aprenentatge competencial a l'educació a distància}
+	  {Institut Obert de Catalunya}
+      {}
+    \entry
+	  {2021}
+	  {Curs d'estratègia digital de centre adreçat a Mentors i Assessors Digitals}
+	  {Departament d'Educació}
+      {}
+    \entry
+	  {2018}
+	  {Recerca i innovació en el procés d'ensenyament-aprenentatge}
+	  {Departament d'Educació}
+      {}
+    \entry
+	  {2014}
+	  {FIET Fòrum Internacional dedicat a l'Educació i la Tecnologia}
+	  {Departament d'Educació}
+      {}
+  \entry
+	  {2010 -- 2011}
+	  {Seminari per a la millora de la metodologia didàctica}
+	  {Institut Obert de Catalunya}
+      {}
+  \entry
+	  {2008 -- 2009}
+	  {Disseny d'activitats d'aprenentatge per competències}
+	  {Departament d'Educació}
+      {}
+  \entry
+     {1991 -- 1996}
+     {Llicènciat en Belles Arts}
+     {Facultat de Belles Arts. Universita tde Barcelona}
+     {}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	ADDITIONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.25\textwidth}
+  \vspace{-\baselineskip} % Required for vertically aligning minipages
+
+  \cvsect{Idiomes}
+  
+  \textbf{Català}\hspace{1.75em}--- nadiu\\
+  \textbf{Castellà}\hspace{1em}--- nadiu\\
+  \textbf{Anglès}\hspace{1.6em}--- escrit/oral alt
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.7\textwidth}
+  \vspace{-\baselineskip} % Required for vertically aligning minipages
+  
+  \cvsect{Interessos}
+  
+  I love... \lorem\lorem\lorem\lorem\\ \lorem\lorem
+\end{minipage}
+%% \hfill
+%% \begin{minipage}[t]{0.4\textwidth}
+%%   \vspace{-\baselineskip} % Required for vertically aligning minipages
+  
+%%   \cvsect{Aficions}
+  
+%%   I help... \lorem
+%% \end{minipage}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
